@@ -23,3 +23,17 @@ Cybersecurity analysts
 Digital forensic investigators
 IT administrators
 Privacy-conscious users
+# 1. استنساخ المشروع
+git clone https://github.com/yourusername/yoyo.git
+cd yoyo
+
+# 2. إنشاء بيئة افتراضية
+python3 -m venv yoyo-env
+source yoyo-env/bin/activate  # Linux/Mac
+# أو على ويندوز: yoyo-env\Scripts\activate
+
+# 3. تثبيت المكتبات
+pip install scapy  # اختياري لدعم ميزات مستقبلية
+
+# 4. تشغيل الأداة (على لينكس: باستخدام sudo)
+sudo python3 yoyo.py
